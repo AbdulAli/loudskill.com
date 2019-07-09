@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Right directions for your academic goals</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on Right directions for your academic goals</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Immigration and Visa</title>
+      <link>/categories/immigration-and-visa/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/immigration-and-visa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Masters</title>
+      <link>/categories/masters/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/masters/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PhD</title>
+      <link>/categories/phd/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/phd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>You Must Know</title>
+      <link>/categories/you-must-know/</link>
+      <pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/you-must-know/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>/categories/news/</link>
+      <pubDate>Wed, 14 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My Services</title>
+      <link>/categories/my-services/</link>
+      <pubDate>Mon, 21 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/my-services/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

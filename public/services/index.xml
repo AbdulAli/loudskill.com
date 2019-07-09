@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>I Offer the Following Services on Right directions for your academic goals</title>
+    <link>/services/</link>
+    <description>Recent content in I Offer the Following Services on Right directions for your academic goals</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Aug 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/services/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My Services</title>
+      <link>/services/myservices/</link>
+      <pubDate>Mon, 21 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/services/myservices/</guid>
+      <description>DISCLAIMER: Ask me as many questions as you want in the comment section at the bottom of this page
+I offer the following services:
+General Services
+ S101. CV Critical Review and Editing S102. Building CV/Resume from scratch S103. SOP Critical Review and Editing S104. IELTS Speaking Preparation for Band &amp;gt; 7  Academic Services
+ S201. Research Proposal Critical Review S202. Professor&amp;rsquo;s Email Review S203. Shortlisting 10 Universities according to your profile for Canada S204.</description>
+    </item>
+    
+  </channel>
+</rss>
