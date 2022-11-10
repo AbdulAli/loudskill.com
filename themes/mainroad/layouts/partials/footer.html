@@ -1,0 +1,11 @@
+<footer class="footer">
+	<div class="container footer__container flex">
+		{{ partial "footer_links.html" . }}
+		<div class="footer__copyright">
+			&copy; {{ now.Format "2006" }} {{  .Site.Params.copyright | default .Site.Title  }}.
+			<span class="footer__copyright-credits"><div style="float: right;    margin-left: 1em;    font-style: italic;">
+			  	All of this work is powered by: <a style="color:red" href="http://alburhan.org/">Al-Burhan</a>
+			</div></span>
+		</div>
+	</div>
+</footer>

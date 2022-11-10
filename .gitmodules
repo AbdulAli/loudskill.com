@@ -1,0 +1,8 @@
+[submodule "loudskill.com"]
+	path = loudskill.com
+	url = https://github.com/AbdulAli/loudskill.com.git
+	branch = master
+[submodule "public"]
+	path = public
+	url = https://github.com/AbdulAli/loudskill.com.git
+	branch = master

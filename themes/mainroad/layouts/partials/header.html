@@ -1,0 +1,35 @@
+<header class="header">
+	<div class="container">
+		<div class="logo">
+			<a class="logo__link" href="{{ "" | relLangURL }}" title="{{ .Site.Title }}" rel="home">
+				<div class="logo__title">{{ .Site.Title }}</div>
+				{{ with .Site.Params.subtitle }}<div class="logo__tagline">{{ . }}</div>{{ end }}
+			</a>
+		</div>
+
+		<div style="padding-left: 2em;padding-right: 10em;">
+
+
+
+
+		</div>
+
+		<div style="display: flex;padding-left: 2em;">
+  		<div style="flex: 0 0 10%;">
+				<img src="/img/profile.jpg" alt="logo" style="margin-bottom: 1em;">
+			</div>
+  		<div style="flex: 1;padding-left:1em;">
+				<p > This blog is to help people get the right information about how to secure a fully-funded research position.
+				How to build a research profile in terms of their research publication, thesis, research proposal, statement of Purpose
+			  etc. All the hidden secrets (tips and tricks) for securing summer-schools, travel grants, scholarships and fully-funded
+				Masters/Ph.D positions are available here.</p>
+			</div>
+		</div>
+
+
+		{{ partial "menu.html" . }}
+
+	</div>
+
+
+</header>

@@ -1,0 +1,126 @@
+baseURL = "https://loudskill.com/"
+title = "Right directions for your academic goals"
+languageCode = "en-us"
+paginate = "10" # Number of posts per page
+theme = "mainroad"
+disqusShortname = "" # Enable comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+[Author] # Used in authorbox
+  name = "Abdul Ali Bangash"
+  bio = "I help students get the right directions for their LOUD SKILLs by fixing their motivational letters, CVs, research proposal, professor's emails, SOPs, LOEs and what not."
+  avatar = "/img/profile.jpg"
+
+[Params]
+  subtitle = "Did You Know? Around 99% of Foreign Masters and PhD programs are fully-funded (in one way or another) " # Subtitle of your site. Used in site header
+  description = "Free information and tips about Admissions, Scholarships, Summer School, Internships, Letter of Motivation, Reearch Proposal, Statement of Purpose, Immigration and much more." # Site description. Used in meta description
+  copyright = "Abdul Ali Bangash" # copyright holder, otherwise will use site title
+  opengraph = true # Enable OpenGraph if true
+  twitter_cards = true # Enable Twitter Cards if true
+  readmore = true # Show "Read more" button in list if true
+  authorbox = true # Show authorbox at bottom of pages if true
+  toc = true # Enable Table of Contents
+  post_navigation = true # Show post navigation at bottom of pages if true
+  post_meta = ["date", "categories", "translations"] # Order of post meta information
+  mainSections = ["masters","phd","immigration","scholarships"] # specify section pages to show on home page and the "Recent articles" widget
+
+  dateformat = "2006-01-02" # change the format of dates
+  mathjax = true # Enable MathJax
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" # Specify MathJax path
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  highlightColor = "#e22d30" # Override highlight color
+  customCSS = ["css/custom.css"] # Include custom CSS files
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "right"  # Configure layout for list pages
+  single = "right" # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+
+[Params.widgets.social]
+  # Enable parts of social widget
+  # facebook = "abdulalibangash"
+  # twitter = "abdulalib"
+  # instagram = "username"
+  # linkedin = "username"
+  # telegram = "username"
+  # github = "username"
+  # gitlab = "username"
+  # bitbucket = "username"
+  # email = "nu.abdulali@gmail.com"
+
+  [Params.utteranc]         # utteranc is a comment system based on GitHub issues. see https://utteranc.es
+   enable = false
+   repo = "AbdulAli/loudskill.com"    # The repo to store comments
+   issueTerm = "pathname"
+
+  [menu]
+
+  [[menu.main]]
+    identifier = "Home"
+    name = "Home"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/"
+    weight = -6
+
+
+  [[menu.main]]
+    identifier = "MastersScholarship"
+    name = "Masters Admissions"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/masters/"
+    weight = -6
+
+  [[menu.main]]
+    identifier = "PhDScholarship"
+    name = "PhD Admission"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/phd/"
+    weight = -5
+
+  [[menu.main]]
+    identifier = "Facts"
+    name = "Facts"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/facts/"
+    weight = -4.2
+
+  [[menu.main]]
+      identifier = "Immigration"
+      name = "Immigration"
+      pre = "<i class='fa fa-heart'></i>"
+      url = "/immigration/"
+      weight = -4
+
+  [[menu.main]]
+    identifier = "shareskill"
+    name = "Share Your Skill"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/shareskill/"
+    weight = -1
+
+  [[menu.main]]
+    identifier = "News"
+    name = "Biased News"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/news/"
+    weight = -2
+
+#  [[menu.main]]
+#    identifier = "ShareYourSkill"
+#    name = "Share Your Skills"
+#    pre = "<i class='fa fa-heart'></i>"
+#    url = "/services/"
+#    weight = 0
+
+# [[menu.main]]
+#    identifier = "Services"
+#    name = "My Services"
+#    pre = "<i class='fa fa-heart'></i>"
+#    url = "/services/"
+#    weight = 0
